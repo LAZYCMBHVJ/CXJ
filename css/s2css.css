@@ -1,0 +1,1356 @@
+/*第二页*/
+.swiper-wrapper .slide2{
+	width: 7.5rem;
+	position: relative;
+	background-color: #000000;
+	height: 100%;
+	background-image: url(../img/bg.png);
+	background-size: cover;
+}
+.swiper-wrapper .slide2 #box{
+	width: 7.5rem;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	display: none;
+}
+.swiper-wrapper .slide2 #box img{
+	width: 7.5rem;
+	height:100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: none;
+}
+.swiper-wrapper .slide2 #box img:nth-child(1){
+	display: block;
+}
+.swiper-wrapper .slide2 .dare{
+	height: 0.65rem;
+	width: 4.7rem;	
+	position: absolute;
+	bottom: 2.75rem;
+	left: 1.4rem;
+}
+.swiper-wrapper .slide2 .dare img{
+	height: 0.65rem;
+	width: 4.7rem;
+	height: 0.65rem;
+	
+}
+.swiper-wrapper .slide2 .maker{
+	width: 7.15rem;
+	height: 0.65rem;
+	position: absolute;
+	bottom: 1.70rem;
+	left: 0.175rem;
+}
+.swiper-wrapper .slide2 .maker img{
+	width: 7.15rem;
+	height: 0.65rem;
+	
+}
+/*第四页*/
+.swiper-wrapper .slide4{
+	width: 7.5rem;
+	position: relative;
+	background-color: #000000;
+	height: 100%;
+	background-image: url(../img/bg.png);
+	background-size: cover;
+}
+.swiper-wrapper .slide4 .outer{
+	position: absolute;
+	width: 7.5rem;
+	height: 100%;
+	display: none;
+	z-index: 10;
+}
+.swiper-wrapper .slide4 .outer>div{
+	position: absolute;
+	z-index: 10;
+}
+.swiper-wrapper .slide4 .outer>div>img{
+	position: absolute;
+	z-index: 9;
+}
+/*.swiper-wrapper .slide4 .outer>span{
+	position: absolute;
+	height:6rem;
+	width: 1px;
+	margin: 0;
+	padding:0;
+	background-color: white;
+	transform: rotateZ(100deg);
+}*/
+.swiper-wrapper .slide4 .outer div:nth-child(1){
+	width: 0.5rem;
+	height: 0.5rem;
+	left: 3.5rem;
+	bottom:7.2rem;
+	animation: fx1 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(1) img{
+	width: 0.5rem;
+	height: 0.5rem;
+	animation: fx1_1 2s 0s ease-in-out forwards normal;
+}
+@keyframes fx1{
+	from{
+	width: 0.5rem;
+	height: 0.5rem;
+	left: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	width: 1.55rem;
+	height: 1.55rem;
+	bottom: 2.19rem;
+	left: 2.89rem;
+	}
+}
+@keyframes fx1_1{
+	from{
+	width: 0.5rem;
+	height: 0.5rem;
+	}
+	to{
+	width: 1.55rem;
+	height: 1.55rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(2){
+	width: 0.25rem;
+	height: 0.25rem;
+	left: 3.85rem;
+	bottom: 4.65rem;
+	animation: fx2 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(2) img{
+	width: 0.25rem;
+	height: 0.25rem;
+}
+@keyframes fx2{
+	from{
+	left: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	left: 3.85rem;
+	bottom: 4.65rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(3){
+	width: 0.5rem;
+	height: 0.5rem;
+	left: 3.5rem;
+	bottom:7.2rem;
+	animation: fx3 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(3) img{
+	width: 0.5rem;
+	height: 0.5rem;
+	animation: fx3_3 2s 0s ease-in-out forwards normal;
+}
+@keyframes fx3{
+	from{
+	width: 0.5rem;
+	height: 0.5rem;
+	left: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	width: 0.6rem;
+	height: 0.6rem;
+	left: 4.79rem;
+	bottom: 2.61rem;
+	}
+}
+@keyframes fx3_3{
+	from{
+	width: 0.5rem;
+	height: 0.5rem;
+	}
+	to{
+	width: 0.6rem;
+	height: 0.6rem;
+	}
+}
+
+.swiper-wrapper .slide4 .outer div:nth-child(4){
+	width: 0.25rem;
+	height: 0.25rem;
+	left: 3.5rem;
+	bottom:7.2rem;
+	animation: fx4 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(4) img{
+	width: 0.25rem;
+	height: 0.25rem;
+}
+@keyframes fx4{
+	from{
+	left: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	bottom: 1.8rem;
+	left: 6.59rem;
+	}
+}
+
+.swiper-wrapper .slide4 .outer div:nth-child(5){
+	width:0.5rem;
+	height: 0.5rem;
+	left: 3.5rem;
+	bottom:7.2rem;
+	animation: fx5 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(5) img{
+	width: 0.5rem;
+	height: 0.5rem;
+	animation: fx5_5 2s 0s ease-in-out forwards normal;
+}
+@keyframes fx5{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	left: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	width: 1.4rem;
+	height: 1.4rem;
+	left: 5.4rem;
+	bottom:3.66rem ;
+	}
+}
+@keyframes fx5_5{
+	from{
+		width:0.5rem;
+	height: 0.5rem;
+	}
+	to{
+			width: 1.4rem;
+	height: 1.4rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(6){
+	width: 0.5rem;
+	height: 0.5rem;
+	left: 3.5rem;
+	bottom:7.2rem;
+	background-color: black;
+	border-radius: 50%;
+	z-index: 20;
+}
+
+.swiper-wrapper .slide4 .outer div:nth-child(7){
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	animation: fx7 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(7) img{
+	width:0.5rem;
+	height: 0.5rem;
+	animation: fx7_7 2s 0s ease-in-out forwards normal;
+}
+@keyframes fx7{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	width: 1.34rem;
+	height: 1.34rem;
+	right: 0.58rem;
+	bottom:6.66rem ;
+	}
+}
+@keyframes fx7_7{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	}
+	to{
+	width: 1.34rem;
+	height: 1.34rem;
+	}
+}
+
+.swiper-wrapper .slide4 .outer div:nth-child(8){
+	width: 0.15rem;
+	height: 0.15rem;
+	right: 2.05rem;
+	bottom:7.14rem ;
+	animation: fx8 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(8) img{
+	width: 0.15rem;
+	height: 0.15rem;
+}
+@keyframes fx8{
+	from{
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	right: 2.05rem;
+	bottom:7.14rem ;;
+	}
+}
+
+.swiper-wrapper .slide4 .outer div:nth-child(9){
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	animation: fx9 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(9) img{
+	width:0.5rem;
+	height: 0.5rem;
+	animation: fx9_9 2s 0s ease-in-out forwards normal;
+}
+@keyframes fx9{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	width: 1.57rem;
+	height: 1.57rem;
+	right: 0.6rem;
+	bottom:9.34rem ;
+	}
+}
+@keyframes fx9_9{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	}
+	to{
+	width: 1.57rem;
+	height: 1.57rem;
+	}
+}
+
+.swiper-wrapper .slide4 .outer div:nth-child(10){
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	animation: fx10 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(10) img{
+	width:0.5rem;
+	height: 0.5rem;
+	animation: fx10_10 2s 0s ease-in-out forwards normal;
+}
+@keyframes fx10{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	width: 0.75rem;
+	height: 0.75rem;
+	right: -0.4rem;
+	bottom:8.81rem ;
+	}
+}
+@keyframes fx10_10{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	}
+	to{
+	width: 0.75rem;
+	height: 0.75rem;
+	}
+}
+
+.swiper-wrapper .slide4 .outer div:nth-child(11){
+	width: 0.07rem;
+	height: 0.07rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	animation: fx11 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(11) img{
+	width: 0.07rem;
+	height: 0.07rem;
+}
+@keyframes fx11{
+	from{
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	right: 2.67rem;
+	bottom:5.02rem ;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(12){
+	width: 0.44rem;
+	height: 0.44rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	animation: fx12 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(12) img{
+	width: 0.44rem;
+	height: 0.44rem;
+}
+@keyframes fx12{
+	from{	
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	right: 1.82rem;
+	bottom:5.67rem ;
+	}
+}
+
+.swiper-wrapper .slide4 .outer div:nth-child(13){
+	width: 0.35rem;
+	height: 0.35rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	animation: fx13 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(13) img{
+	width: 0.35rem;
+	height: 0.35rem;
+}
+@keyframes fx13{
+	from{	
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	right: 2.32rem;
+	bottom: 11.42rem ;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(14){
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	animation: fx14 2s 0s ease-in-out forwards normal;
+
+}
+.swiper-wrapper .slide4 .outer div:nth-child(14) img{
+		width:0.5rem;
+	height: 0.5rem;
+	animation: fx14_14 2s 0s ease-in-out forwards normal;
+}
+@keyframes fx14{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	width: 0.54rem;
+	height: 0.54rem;
+	right: 7.14rem;
+	bottom: 12.04rem ;
+	}
+}
+@keyframes fx14_14{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	}
+	to{
+	width: 0.54rem;
+	height: 0.54rem;
+	}
+}
+
+.swiper-wrapper .slide4 .outer div:nth-child(15){
+	width: 0.44rem;
+	height: 0.44rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	animation: fx15 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(15) img{
+	width: 0.44rem;
+	height: 0.44rem;
+}
+@keyframes fx15{
+	from{
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	right: 5.5rem;
+	bottom:8.9rem;
+	}
+}
+
+.swiper-wrapper .slide4 .outer div:nth-child(16){
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	animation: fx16 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(16) img{
+	width:0.5rem;
+	height: 0.5rem;
+	animation: fx16_16 2s 0s ease-in-out forwards normal;
+}
+@keyframes fx16{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	width: 1.47rem;
+	height: 1.47rem;
+	right: 2.96rem;
+	bottom: 10.86rem ;
+	}
+}
+@keyframes fx16_16{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	}
+	to{
+	width: 1.47rem;
+	height: 1.47rem;
+	}
+}
+
+.swiper-wrapper .slide4 .outer div:nth-child(17){
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	animation: fx17 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(17) img{
+	width:0.5rem;
+	height: 0.5rem;
+	animation: fx17_17 2s 0s ease-in-out forwards normal;
+}
+@keyframes fx17{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	width: 1.67rem;
+	height: 1.67rem;
+	right:5.21rem;
+	bottom: 9.6rem ;
+	}
+}
+@keyframes fx17_17{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	}
+	to{
+	width: 1.67rem;
+	height: 1.67rem;
+	}
+}
+
+.swiper-wrapper .slide4 .outer div:nth-child(18){
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	animation: fx18 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(18) img{
+	width:0.5rem;
+	height: 0.5rem;
+	animation: fx18_18 2s 0s ease-in-out forwards normal;
+}
+@keyframes fx18{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	width: 1.6rem;
+	height: 1.6rem;
+	right:5.5rem;
+	bottom: 6.84rem ;
+	}
+}
+@keyframes fx18_18{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	}
+	to{
+	width: 1.6rem;
+	height: 1.6rem;
+	}
+}
+
+.swiper-wrapper .slide4 .outer div:nth-child(19){
+		width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	animation: fx19 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(19) img{
+	width:0.5rem;
+	height: 0.5rem;
+	animation: fx19_19 2s 0s ease-in-out forwards normal;
+}
+@keyframes fx19{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	width: 1.5rem;
+	height: 1.5rem;
+	right:5rem;
+	bottom: 4.52rem ;
+	}
+}
+@keyframes fx19_19{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	}
+	to{
+	width: 1.5rem;
+	height: 1.5rem;
+	}
+}
+
+.swiper-wrapper .slide4 .outer div:nth-child(20){
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	animation: fx20 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(20) img{
+	width: 0.5rem;
+	height: 0.5rem;
+	animation: fx20_20 2s 0s ease-in-out forwards normal;
+}
+@keyframes fx20{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	width: 0.56rem;
+	height: 0.56rem;
+	right:1.8rem;
+	bottom: 8.4rem ;
+	}
+}
+@keyframes fx20_20{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	}
+	to{
+	width: 0.56rem;
+	height: 0.56rem;
+	}
+}
+
+.swiper-wrapper .slide4 .outer div:nth-child(21){
+	width: 0.1rem;
+	height: 0.1rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	animation: fx21 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(21) img{
+	width: 0.1rem;
+	height: 0.1rem;
+}
+@keyframes fx21{
+	from{
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	right:4.31rem;
+	bottom: 8.86rem ;
+	}
+}
+
+.swiper-wrapper .slide4 .outer div:nth-child(22){
+	width: 0.1rem;
+	height: 0.1rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	animation: fx22 2s 0s ease-in-out forwards normal;
+	
+}
+.swiper-wrapper .slide4 .outer div:nth-child(22) img{
+	width: 0.1rem;
+	height: 0.1rem;
+}
+
+@keyframes fx22{
+	from{
+	
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	right:7.04rem;
+	bottom: 9.52rem 
+	}
+}
+
+.swiper-wrapper .slide4 .outer div:nth-child(23){
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	animation: fx23 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(23) img{
+	width:0.5rem;
+	height: 0.5rem;
+	animation: fx23_23 2s 0s ease-in-out forwards normal;
+}
+@keyframes fx23{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+		width: 1.92rem;
+	height: 1.92rem;
+	right:6.5rem;
+	bottom: 4.84rem ;
+	}
+}
+@keyframes fx23_23{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	}
+	to{
+	width: 1.92rem;
+	height: 1.92rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(24){
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	animation: fx24 2s 0s ease-in-out forwards normal;
+}
+.swiper-wrapper .slide4 .outer div:nth-child(24) img{
+	width: 0.1rem;
+	height: 0.1rem;
+}
+@keyframes fx24{
+	from{
+	width:0.5rem;
+	height: 0.5rem;
+	right: 3.5rem;
+	bottom:7.2rem;
+	}
+	to{
+	right: 4rem;
+    bottom: 5.2rem;
+	}
+}
+.swiper-wrapper .slide4 .outer>div>span{
+	position: absolute;
+	top: 0.01rem;
+	left: 0rem;
+	width: 0.03rem;
+	height: 0rem;
+	margin: 0;
+	padding: 0;
+	display: block;
+	background-color: white;
+	z-index: 8;
+	animation: spans 2s 2.5s ease-in-out forwards normal;
+	transform-origin:0 0;
+	transform: rotate(0deg);
+}
+.swiper-wrapper .slide4 .outer div:nth-child(1) span{
+	animation: spans1 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans1{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:3.8rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(2) span{
+	animation: spans2 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans2{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:2.5rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(3) span{
+	animation: spans3 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans3{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:4.4rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(4) span{
+	animation: spans4 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans4{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:6.5rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(5) span{
+	animation: spans5 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans5{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:3.5rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(7) span{
+	animation: spans7 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans7{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:2.2rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(8) span{
+	animation: spans8 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans8{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:1.8rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(9) span{
+	animation: spans9 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans9{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:3.6rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(10) span{
+	animation: spans10 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans10{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:4.3rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(11) span{
+	animation: spans11 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans11{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:2.8rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(12) span{
+	animation: spans12 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans12{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:2rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(13) span{
+	animation: spans13 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans13{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:4rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(14) span{
+	animation: spans14 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans14{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:5.8rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(15) span{
+	animation: spans15 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans15{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:2.3rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(16) span{
+	animation: spans16 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans16{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:4.5rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(17) span{
+	animation: spans17 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans17{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:4rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(18) span{
+	animation: spans18 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans18{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:2.7rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(19) span{
+	animation: spans19 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans19{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:2rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(20) span{
+	animation: spans20 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans20{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:2rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(21) span{
+	animation: spans21 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans21{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:2rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(22) span{
+	animation: spans22 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans22{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:4rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(23) span{
+	animation: spans23 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans23{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:3.5rem;
+	}
+}
+.swiper-wrapper .slide4 .outer div:nth-child(24) span{
+	animation: spans24 2s 2.5s ease-in-out forwards normal;
+}
+@keyframes spans24{
+	from{
+	height: 0rem;
+	}
+	to{
+	 height:1.7rem;
+	}
+}
+.swiper-wrapper .slide4 .text1{
+	position: absolute;
+	width: 1.5rem;
+	height: 1rem;
+	left:3.08rem;
+	bottom:8.5rem;
+	z-index: 50;
+}
+.swiper-wrapper .slide4 .text1 img{
+	width: 1.5rem;
+	height: 1rem;
+}
+.swiper-wrapper .slide4 .text2{
+	position: absolute;
+	width: 2.5rem;
+	height: 1rem;
+	left:2.5rem;
+	bottom:7.8rem;
+	z-index: 50;
+}
+.swiper-wrapper .slide4 .text2 img{
+	width: 2.5rem;
+	height: 1rem;
+}
+.swiper-wrapper .slide4 .text3{
+	position: absolute;
+	width: 3.12rem;
+	height: 0.6rem;
+	left: 3.5rem;
+	bottom:1.55rem;
+	animation: text3 0.8s 0s ease-out infinite normal;
+}
+.swiper-wrapper .slide4 .text3 img{
+	width: 3.12rem;
+	height: 0.6rem;
+}
+@keyframes text3{
+	from{
+	bottom:1.55rem;
+	}
+	to{
+	bottom:1.85rem;
+	}
+}
+/*按钮*/
+.prev{
+	height: 0.9rem;
+	width: 0.4rem;	
+	position: absolute;
+	left: 0;
+	bottom: 6.15rem;
+	display: none;
+}
+.prev img{
+	height: 0.9rem;
+	width: 0.4rem;	
+}
+.next{
+	height: 0.9rem;
+	width: 0.4rem;	
+	position: absolute;
+	right: 0;
+	bottom: 6.15rem;
+	display: none;
+	
+}
+.next img{
+	height: 0.9rem;
+	width: 0.4rem;
+}
+.x{
+	width: 1.2rem;
+	height: 0.9rem;
+	position: absolute;
+	right: 0.3rem;
+	top: 0.9rem;
+	display: none;
+}
+.x img{
+	width: 1.2rem;
+	height: 0.9rem;
+	
+	
+}
+.outer_2{
+	width:5rem;
+	height: 6.2rem;
+	position: absolute;
+	left: 1.25rem;
+	bottom: 3rem;
+	overflow: hidden;
+	overflow-x: scroll;
+	z-index: 100;
+	display: none;
+}
+.outer_2 .innter{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 6.2rem;
+	width:41rem;
+	float: left;
+	overflow-x:scroll;
+	overflow-y: hidden;
+}
+.outer_2>.innter>img{
+	width: 5rem;
+	height: 6.2rem;
+	margin: 0;
+	padding: 0;
+}
+.outer_3{
+	z-index: 10;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+.outer_3 div{
+	position: absolute;
+	display: none;
+	z-index: 20;
+	
+}
+.outer_3 div:nth-child(1){
+    bottom: 2.19rem;
+    left: 2.89rem;
+    background-color: #508cfe;
+	width: 1.55rem;
+    height: 1.55rem;
+    border-radius: 50%;
+    animation: bg1 2s 0s ease-in-out forwards normal;
+    
+}
+@keyframes bg1{
+	from{
+	bottom: 2.19rem;
+    left: 2.89rem;
+	}
+	to{
+	bottom: 3rem;
+    left: 3.3rem;
+    width: 0.8rem;
+    height: 0.8rem;
+	}
+}
+.outer_3 div:nth-child(2){
+    left: 5.4rem;
+    bottom: 3.66rem;
+	background-color: #1ae9bf;
+	width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+    animation: bg2 2s 0s ease-in-out forwards normal;
+}
+@keyframes bg2{
+	from{
+	left: 5.4rem;
+    bottom: 3.66rem;
+	}
+	to{
+	left: 5.3rem;
+    bottom: 4rem;
+    width: 0.8rem;
+    height: 0.8rem;
+	}
+}
+.outer_3 div:nth-child(3){
+	background-color: #03addc;
+	width: 1.34rem;
+    height: 1.34rem;
+    right: 0.58rem;
+    bottom: 6.66rem;
+    border-radius: 50%;
+    animation: bg3 2s 0s ease-in-out forwards normal;
+}
+@keyframes bg3{
+	from{
+	right: 0.58rem;
+    bottom: 6.66rem;
+	}
+	to{
+	right: 0.69rem;
+    bottom: 7.1rem;
+    width: 0.8rem;
+    height: 0.8rem;
+	}
+}
+.outer_3 div:nth-child(4){
+	background-color: #70ed89;
+	width: 1.57rem;
+    height: 1.57rem;
+    right: 0.6rem;
+    bottom: 9.34rem;
+    border-radius: 50%;
+    animation: bg4 2s 0s ease-in-out forwards normal;
+}
+@keyframes bg4{
+	from{
+	 right: 0.6rem;
+    bottom: 9.34rem;
+	}
+	to{
+	    right: 1rem;
+    bottom: 10.3rem;
+    width: 0.8rem;
+    height: 0.8rem;
+	}
+}
+.outer_3 div:nth-child(5){
+	background-color: #ff7b52;
+	width: 1.47rem;
+    height: 1.47rem;
+    border-radius: 50%;
+    right: 2.96rem;
+    bottom: 10.86rem;
+    animation: bg5 2s 0s ease-in-out forwards normal;
+}
+@keyframes bg5{
+	from{
+    right: 2.96rem;
+    bottom: 10.86rem;
+	}
+	to{
+	    right: 3.3rem;
+    bottom: 11.5rem;
+    width: 0.8rem;
+    height: 0.8rem;
+	}
+}
+.outer_3 div:nth-child(6){
+	background-color: #ffdb65;
+	width: 1.67rem;
+    height: 1.67rem;
+    border-radius: 50%;
+    right: 5.21rem;
+    bottom: 9.6rem;
+    animation: bg6 2s 0s ease-in-out forwards normal;
+}
+@keyframes bg6{
+	from{
+ right: 5.21rem;
+    bottom: 9.6rem;
+	}
+	to{
+	    right: 5.5rem;
+    bottom: 10.4rem;
+   	width: 0.8rem;
+    height: 0.8rem;
+	}
+}
+.outer_3 div:nth-child(7){
+	background-color: #af67fb;
+	width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    right: 5.5rem;
+    bottom: 6.84rem;
+    animation: bg7 2s 0s ease-in-out forwards normal;
+}
+@keyframes bg7{
+	from{
+    right: 5.5rem;
+    bottom: 6.84rem;
+	}
+	to{
+	width: 0.8rem;
+    height: 0.8rem;
+    right: 5.5rem;
+    bottom: 7.4rem;
+	}
+}
+.outer_3 div:nth-child(8){
+	background-color: #ff5f66;
+	width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    right: 5rem;
+    bottom: 4.52rem;
+    animation: bg8 2s 0s ease-in-out forwards normal;
+}
+@keyframes bg8{
+	from{
+    right: 5rem;
+    bottom: 4.52rem;
+	}
+	to{
+	width: 0.8rem;
+    height: 0.8rem;
+	right: 5.3rem;
+    bottom: 5.3rem;
+	}
+}

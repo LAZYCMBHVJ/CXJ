@@ -1,0 +1,756 @@
+/*初始化操作*/
+
+html {
+	font-size: 100px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	position: relative;
+	height: 100%;
+}
+
+body {
+	background: #eee;
+	font-size: 0.14rem;
+	color: #000;
+	opacity: 0;
+}
+
+.swiper-container {
+
+	height: 100%;
+	overflow: hidden;
+}
+
+.swiper-slide {
+
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+
+/*通用部分*/
+
+.swiper-wrapper .sf {
+	height: 0.18rem;
+	width: 0.54rem;
+	position: absolute;
+	bottom: 0.4rem;
+	left: 3.48rem;
+	animation: sf 0.8s 0s ease-out infinite normal;
+}
+
+.swiper-wrapper .sf>img {
+	height: 0.18rem;
+	width: 0.54rem;
+}
+
+@keyframes sf {
+	from {
+		bottom: 0.58rem;
+	}
+	to {
+		bottom: 0.88rem;
+	}
+}
+
+.music {
+	display: block;
+	position: absolute;
+	right: 0.5rem;
+	bottom: 0.5rem;
+	width: 0.58rem;
+	height: 0.58rem;
+	z-index: 10;
+	/*background: url(../img/music_icon.png) top center no-repeat;*/
+	/*background-size: 100% 100%;*/
+}
+
+.music>img {
+	width: 0.58rem;
+	height: 0.58rem;
+}
+
+.demo {
+	animation: dh2 2s 0s linear infinite normal;
+}
+
+@keyframes dh2 {
+	from {
+		transform: rotateZ(0deg);
+	}
+	to {
+		transform: rotateZ(360deg);
+	}
+}
+
+
+/*第一页*/
+
+.swiper-wrapper .slide1,
+.swiper-wrapper .slide3 {
+	background: url(../img/bg.png) top center no-repeat;
+	background-size: 100% 100%;
+}
+
+.slide1>.cwone {
+	width: 5.10rem;
+	height: 5.18rem;
+	margin: 1.42rem auto 0;
+	position: relative;
+}
+
+.slide1>.cwone>div:nth-child(1) {
+	width: 2.42rem;
+	height: 5.16rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.slide1>.cwone>div:nth-child(1)>img {
+	width: 2.42rem;
+	height: 5.16rem;
+}
+
+.slide1>.cwone>div:nth-child(2) {
+	width: 5.10rem;
+	height: 5.18rem;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.slide1>.cwone>div:nth-child(2)>img {
+	width: 5.10rem;
+	height: 5.18rem;
+}
+
+.slide1>.cwone>div:nth-child(3) {
+	width: 5.10rem;
+	height: 3.08rem;
+	position: absolute;
+	top: 2.1rem;
+	left: 0;
+}
+
+.slide1>.cwone>div:nth-child(3)>img {
+	width: 5.10rem;
+	height: 3.08rem;
+}
+
+.slide1>.cwone>div:nth-child(4) {
+	width: 1.1rem;
+	height: 1.48rem;
+	position: absolute;
+	top: 1.85rem;
+	left: 0;
+}
+
+.slide1>.cwone>div:nth-child(4)>img {
+	width: 1.1rem;
+	height: 1.48rem;
+}
+
+.slide1>.cwone>div:nth-child(5) {
+	width: 3.74rem;
+	height: 2.08rem;
+	position: absolute;
+	top: 3.1rem;
+	left: 1.37rem;
+}
+
+.slide1>.cwone>div:nth-child(5)>img {
+	width: 3.74rem;
+	height: 2.08rem;
+}
+
+.slide1>.cwone>div:nth-child(6) {
+	width: 1.39rem;
+	height: 4.49rem;
+	position: absolute;
+	top: 0rem;
+	left: 1.97rem;
+}
+
+.slide1>.cwone>div:nth-child(6)>img {
+	width: 1.39rem;
+	height: 4.49rem;
+}
+
+.slide1>.cwone>div:nth-child(7) {
+	width: 0.65rem;
+	height: 2.73rem;
+	position: absolute;
+	top: 0rem;
+	left: 2.71rem;
+}
+
+.slide1>.cwone>div:nth-child(7)>img {
+	width: 0.65rem;
+	height: 2.73rem;
+}
+
+.slide1>.cwone>div:nth-child(8) {
+	width: 1.27rem;
+	height: 2.12rem;
+	position: absolute;
+	top: 1.16rem;
+	left: 1.14rem;
+}
+
+.slide1>.cwone>div:nth-child(8)>img {
+	width: 1.27rem;
+	height: 2.12rem;
+}
+
+.slide1>.cwone>div:nth-child(10) {
+	width: 0.63rem;
+	height: 1.02rem;
+	position: absolute;
+	top: 2.08rem;
+	left: 0.23rem;
+}
+
+.slide1>.cwone>div:nth-child(10)>img {
+	width: 0.63rem;
+	height: 1.02rem;
+}
+
+.slide1>.cwone>div:nth-child(11) {
+	width: 0.69rem;
+	height: 1.49rem;
+	position: absolute;
+	top: 1.89rem;
+	left: 1.97rem;
+}
+
+.slide1>.cwone>div:nth-child(11)>img {
+	width: 0.69rem;
+	height: 1.49rem;
+}
+
+.slide1>.cwone>div:nth-child(12) {
+	width: 3.97rem;
+	height: 3.41rem;
+	position: absolute;
+	/*top: 1.89rem;*/
+	bottom: 0;
+	left: 1.14rem;
+}
+
+.slide1>.cwone>div:nth-child(12)>img {
+	width: 3.97rem;
+	height: 3.41rem;
+}
+
+.slide1>.cwone>div:nth-child(13) {
+	width: 3.74rem;
+	height: 0.68rem;
+	position: absolute;
+	top: 4.49rem;
+	left: 1.37rem;
+}
+
+.slide1>.cwone>div:nth-child(13)>img {
+	width: 3.74rem;
+	height: 0.68rem;
+}
+
+.slide1>.cwone>div:nth-child(9) {
+	width: 0.37rem;
+	height: 0.43rem;
+	position: absolute;
+	top: 2.11rem;
+	left: 1.37rem;
+}
+
+.slide1>.cwone>div:nth-child(9)>img {
+	width: 0.37rem;
+	height: 0.43rem;
+}
+
+.slide1>.star1 {
+	width: 3.38rem;
+	height: 1.39rem;
+	position: absolute;
+	top: right: -0.19rem;
+	animation: s1start 2s 1s infinite normal;
+}
+
+.slide1>.star1>img {
+	width: 3.38rem;
+	height: 1.39rem;
+}
+
+.slide1>.star2 {
+	width: 1.47rem;
+	height: 0.67rem;
+	position: absolute;
+	top: 6.5rem;
+	left: 0;
+	animation: s2start 2s 1s infinite normal;
+}
+
+.slide1>.star2>img {
+	width: 1.47rem;
+	height: 0.67rem;
+}
+
+.slide1>.star3 {
+	width: 2.53rem;
+	height: 1.11rem;
+	position: absolute;
+	top: 0rem;
+	right: 0;
+	animation: s3start 2s 1s infinite normal;
+}
+
+.slide1>.star3>img {
+	width: 2.53rem;
+	height: 1.11rem;
+}
+
+.slide1>.text {
+	width: 4.16rem;
+	height: 1.41rem;
+	position: absolute;
+	bottom: 2.87rem;
+	left: 2.07rem;
+	z-index: 2;
+	/*margin: 1.6rem auto;*/
+}
+
+.slide1>.text>img {
+	width: 4.16rem;
+	height: 1.41rem;
+}
+
+.slide1>.star4 {
+	width: 5.78rem;
+	height: 6.47rem;
+	position: absolute;
+	bottom: 0.4rem;
+	right: -0.4rem;
+}
+
+.slide1>.star4>img {
+	width: 5.78rem;
+	height: 6.47rem;
+}
+
+.slide1>.star5 {
+	width: 2.93rem;
+	height: 1.75rem;
+	position: absolute;
+	bottom: 3.4rem;
+	right: 2.7rem;
+}
+
+.slide1>.star5>img {
+	width: 2.93rem;
+	height: 1.75rem;
+}
+
+
+/*第一个星星运动动画*/
+
+@-webkit-keyframes s1start {
+	0% {
+		bottom: 1.2rem;
+		right: -0.19rem;
+	}
+	100% {
+		bottom: 4rem;
+		right: 6.57rem;
+	}
+}
+
+@-o-keyframes s1start {
+	0% {
+		bottom: 1.2rem;
+		right: -0.19rem;
+	}
+	100% {
+		bottom: 4rem;
+		right: 6.57rem;
+	}
+}
+
+@-moz-keyframes s1start {
+	0% {
+		bottom: 1.2rem;
+		right: -0.19rem;
+	}
+	100% {
+		bottom: 4rem;
+		right: 6.57rem;
+	}
+}
+
+@keyframes s1start {
+	0% {
+		bottom: 1.2rem;
+		right: -0.19rem;
+	}
+	100% {
+		bottom: 4rem;
+		right: 6.57rem;
+	}
+}
+
+
+/*第二个星星运动动画*/
+
+@-webkit-keyframes s2start {
+	0% {
+		top: 6.5rem;
+		left: 0;
+	}
+	100% {
+		top: 9.8rem;
+		left: 7.35rem;
+	}
+}
+
+@-o-keyframes s2start {
+	0% {
+		top: 6.5rem;
+		left: 0;
+	}
+	100% {
+		top: 9.8rem;
+		left: 7.35rem;
+	}
+}
+
+@-moz-keyframes s2start {
+	0% {
+		top: 6.5rem;
+		left: 0;
+	}
+	100% {
+		top: 9.8rem;
+		left: 7.35rem;
+	}
+}
+
+@keyframes s2start {
+	0% {
+		top: 6.5rem;
+		left: 0;
+	}
+	100% {
+		top: 9.8rem;
+		left: 7.35rem;
+	}
+}
+
+
+/*第三个星星运动动画*/
+
+@-webkit-keyframes s3start {
+	0% {
+		top: 0rem;
+		right: 0;
+	}
+	100% {
+		top: 3.33rem;
+		right: 7.59rem;
+	}
+}
+
+@-o-keyframes s3start {
+	0% {
+		top: 0rem;
+		right: 0;
+	}
+	100% {
+		top: 3.33rem;
+		right: 7.59rem;
+	}
+}
+
+@-moz-keyframes s3start {
+	0% {
+		top: 0rem;
+		right: 0;
+	}
+	100% {
+		top: 3.33rem;
+		right: 7.59rem;
+	}
+}
+
+@keyframes s3start {
+	0% {
+		top: 0rem;
+		right: 0;
+	}
+	100% {
+		top: 3.33rem;
+		right: 7.59rem;
+	}
+}
+
+
+/*第二页*/
+
+.swiper-wrapper .slide2 {
+	background-color: darkblue;
+}
+
+
+/*第三页*/
+
+.slide3>div:nth-child(1) {
+	width: 0.81rem;
+	height: 0.97rem;
+	position: absolute;
+	bottom: 10.74rem;
+	left: 1.85rem;
+	animation: s3_div1 4s 0s linear infinite;
+}
+
+.slide3>div:nth-child(1)>img {
+	width: 0.81rem;
+	height: 0.97rem;
+}
+
+.slide3>div:nth-child(2) {
+	width: 0.75rem;
+	height: 0.94rem;
+	position: absolute;
+	bottom: 7rem;
+	right: 0.37rem;
+	animation: s3_div2 4s 0s linear infinite;
+}
+
+.slide3>div:nth-child(2)>img {
+	width: 0.75rem;
+	height: 0.94rem;
+}
+
+.slide3>div:nth-child(3) {
+	width: 0.67rem;
+	height: 0.83rem;
+	position: absolute;
+	bottom: 0.87rem;
+	left: 1.46rem;
+	animation: s3_div3 120s 0s linear infinite;
+}
+
+.slide3>div:nth-child(3)>img {
+	width: 0.67rem;
+	height: 0.83rem;
+}
+
+.slide3>div:nth-child(4) {
+	width: 3.55rem;
+	height: 3.25rem;
+	position: absolute;
+	right: 0.59rem;
+	bottom: 7.78rem;
+	animation: s3_div4 4s 0s linear infinite;
+}
+
+.slide3>div:nth-child(4)>img {
+	width: 3.55rem;
+	height: 3.25rem;
+}
+
+.slide3>div:nth-child(5) {
+	width: 3.35rem;
+	height: 2.78rem;
+	position: absolute;
+	left: 0.37rem;
+	bottom: 6.37rem;
+	animation: s3_div5 4s 0s linear infinite;
+}
+
+.slide3>div:nth-child(5)>img {
+	width: 3.35rem;
+	height: 2.78rem;
+}
+
+.slide3>div:nth-child(6) {
+	width: 4.72rem;
+	height: 3.21rem;
+	position: absolute;
+	right: 0.06rem;
+	bottom: 4.25rem;
+	animation: s3_div6 4s 0s linear infinite;
+}
+
+.slide3>div:nth-child(6)>img {
+	width: 4.72rem;
+	height: 3.21rem;
+}
+
+.slide3>div:nth-child(7) {
+	width: 3.87rem;
+	height: 2.88rem;
+	position: absolute;
+	left: 0.27rem;
+	bottom: 2.67rem;
+	animation: s3_div7 4s 0s linear infinite;
+}
+
+.slide3>div:nth-child(7)>img {
+	width: 3.87rem;
+	height: 2.88rem;
+}
+
+.slide3>div:nth-child(8) {
+	width: 3.01rem;
+	height: 2.51rem;
+	position: absolute;
+	right: 0.65rem;
+	bottom: 1.22rem;
+	animation: s3_div8 4s 0s linear infinite;
+}
+
+.slide3>div:nth-child(8)>img {
+	width: 3.01rem;
+	height: 2.51rem;
+}
+
+@keyframes s3_div1 {
+	0% {
+		bottom: 10.74rem;
+		left: 1.85rem;
+	}
+	50% {
+		bottom: 10.14rem;
+		left: 1.85rem;
+	}
+	100% {
+		bottom: 10.74rem;
+		left: 1.85rem;
+	}
+}
+
+@keyframes s3_div2 {
+	0% {
+		bottom: 7rem;
+		right: 0.37rem;
+		transform: rotateZ(0deg);
+	}
+	50% {
+		bottom: 7.6rem;
+		right: 0.37rem;
+		transform: rotateZ(-10deg);
+	}
+	100% {
+		bottom: 7rem;
+		right: 0.37rem;
+		transform: rotateZ(0deg);
+	}
+}
+
+@keyframes s3_div3 {
+	0% {
+		transform: rotateZ(0deg);
+	}
+	100% {
+		transform: rotateZ(-360deg);
+	}
+}
+
+@keyframes s3_div4 {
+	0% {
+		right: 0.59rem;
+		bottom: 7.78rem;
+	}
+	50% {
+		right: -0.19rem;
+		bottom: 7.78rem;
+	}
+	100% {
+		right: 0.59rem;
+		bottom: 7.78rem;
+	}
+}
+
+@keyframes s3_div5 {
+	0% {
+		left: 0.37rem;
+		bottom: 6.37rem;
+	}
+	50% {
+		left: -0.37rem;
+		bottom: 6.37rem;
+	}
+	100% {
+		left: 0.37rem;
+		bottom: 6.37rem;
+	}
+}
+
+@keyframes s3_div6 {
+	0% {
+		right: 0.06rem;
+		bottom: 4.25rem;
+	}
+	50% {
+		right: 0.06rem;
+		bottom: 3.65rem;
+	}
+	100% {
+		right: 0.06rem;
+		bottom: 4.25rem;
+	}
+}
+
+@keyframes s3_div7 {
+	0% {
+		left: 0.27rem;
+		bottom: 2.67rem;
+		transform: rotateZ(0deg);
+	}
+	50% {
+		left: -0.67rem;
+		bottom: 2.07rem;
+		transform: rotateZ(10deg);
+	}
+	100% {
+		left: 0.27rem;
+		bottom: 2.67rem;
+		transform: rotateZ(0deg);
+	}
+}
+
+@keyframes s3_div8 {
+	0% {
+		right: 0.65rem;
+		bottom: 1.22rem;
+		transform: rotateZ(0deg);
+	}
+	50% {
+		right: 0.65rem;
+		bottom: 1.82rem;
+		transform: rotateZ(5deg);
+	}
+	100% {
+		right: 0.65rem;
+		bottom: 1.22rem;
+		transform: rotateZ(0deg);
+	}
+}
+
+
+/*第四页*/
+
+.swiper-wrapper .slide4 {
+	background-color: #000000;
+}
+
+
+/*第五页*/

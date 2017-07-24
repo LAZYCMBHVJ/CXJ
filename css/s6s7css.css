@@ -1,0 +1,377 @@
+/*6*/
+.page6{
+   background: url(../img/bg67.jpg);
+   -webkit-background-size: 100% 100%;
+   background-size: 100% 100%;
+}
+.slide6-1{
+	width: 10%;
+	position: absolute;
+	top: 10%;
+	left: -3%;
+}
+.slide6-2{
+	width: 35%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.slide6-3{
+	width: 35%;
+	position: absolute;
+	top: 8%;
+	left: 32%;
+	z-index: 2;
+}
+.slide6-4{
+	width: 38%;
+	position: absolute;
+	top: 8%;
+	left: 58%;
+	z-index: 1;
+}
+.slide6-5{
+	width: 10%;
+	position: absolute;
+	top: 5%;
+	right: -5%;
+}
+.slide6-6{
+	width: 60%;
+	position: absolute;
+	top:15%;
+	left: 20%;
+	z-index: 3;
+
+}
+.slide6-7{
+	width: 60%;
+	position: absolute;
+	top: 30%;
+	left: 20%;
+}
+.slide6-8{
+	width: 10%;
+	position: absolute;
+	top: 39%;
+	left: 8%;
+}
+.slide6-8{
+	-webkit-animation:3s 2s ease-in infinite alternate;
+	-webkit-animation-name:move8;
+	-webkit-animation-fill-mode:forwards;
+}
+@-webkit-keyframes move8{
+    0%{
+        top: 39%;
+	    left: 8%;
+    }
+    100%{
+    	top:42%;
+    	left: 15%; 
+    }
+}
+
+.slide6-9{
+	width: 5%;
+	position: absolute;
+	bottom: 20%;
+	right: 5%;
+}
+.slide6-9{
+	-webkit-animation:2s 3s ease-in infinite alternate;
+	-webkit-animation-name:move9;
+	-webkit-animation-fill-mode:forwards;
+}
+@-webkit-keyframes move9{
+    0%{
+        bottom: 20%;
+	    right: 5%;
+    }
+    100%{
+    	bottom:18%;
+    	right: -2.5%; 
+    }
+}
+.slide6-10{
+	width: 10%;
+	position: absolute;
+	top: 30%;
+	right: -4%;
+}
+.slide6-10{
+	-webkit-animation:3s 2s ease-in infinite alternate;
+	-webkit-animation-name:move10;
+	-webkit-animation-fill-mode:forwards;
+	
+}
+@-webkit-keyframes move10{
+    0%{
+        top: 28%;
+	    right: -4%;
+    }
+    100%{
+    	top:32%;
+    	right: -10%; 
+    }
+}
+.slide6-11{
+	width: 25%;
+	position: absolute;
+	top:42%;
+	left: 25%;
+
+}
+.slide6-12{
+	width: 20%;
+	position: absolute;
+	top:40%;
+	left: 55%;
+
+}
+.slide6-13{
+	width: 30%;
+	position: absolute;
+	bottom: 25%;
+	left: 20%;
+}
+.slide6-14{
+	width: 25%;
+	position: absolute;
+	bottom: 28%;
+	left: 55%;
+}
+.slide6-15{
+	width: 25%;
+	position: absolute;
+	bottom: 10%;
+	left: 25%;
+}
+.slide6-16{
+	width: 20%;
+	position: absolute;
+	bottom: 12%;
+	left: 55%;
+}
+/*7*/
+.page7{
+	background: url(../img/bg7.png);
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.slide7-1{
+	width: 60%;
+	position: absolute;
+	top:8%;
+	left: 20%;
+}
+.slide7-2{
+	width: 6%;
+	position: absolute;
+	top: 10%;
+	left: 15%;
+}
+.slide7-2{
+	-webkit-animation:2s 2s ease-in infinite alternate;
+	-webkit-animation-name:move7-2;
+	-webkit-animation-fill-mode:forwards;
+	
+}
+@-webkit-keyframes move7-2{
+    0%{
+        top: 10%;
+	    left: 15%;
+    }
+    100%{
+    	 top: 12%;
+    	 left: 18%;
+    }
+}
+.slide7-3{
+	width: 80%;
+	position: absolute;
+	top: 15%;
+	left: 10%;
+}
+.slide7-4{
+	width: 20%;
+	position: absolute;
+	top: 28%;
+	right: -18%;
+	z-index: 3;
+}
+.slide7-4{
+	-webkit-animation:3s 2s ease-in infinite alternate;
+	-webkit-animation-name:move7-4;
+	-webkit-animation-fill-mode:forwards;
+	
+}
+@-webkit-keyframes move7-4{
+    0%{
+       top: 28%;
+	   right: -18%;
+    }
+    100%{
+        
+	   top: 25%;
+	   right: -8%;
+    }
+}
+.slide7-5{
+	width: 50%;
+	position: absolute;
+	top: 35%;
+	right: 15%;
+	z-index: 3;
+}
+.slide7-6{
+	width: 30%;
+	position: absolute;
+	top: 35%;
+	left: -18%;
+	z-index: 3;
+}
+.slide7-6{
+	-webkit-animation:3s 2.5s ease-in infinite alternate;
+	-webkit-animation-name:move7-6;
+	-webkit-animation-fill-mode:forwards;
+	
+}
+@-webkit-keyframes move7-6{
+    0%{
+       top: 35%;
+	   left: -18%;
+    }
+    100%{
+        
+	   top: 37%;
+	   left: -15%;
+    }
+}
+.slide7-7{
+	width: 60%;
+	position: absolute;
+	top: 55%;
+	left: 5%;
+	z-index: 3;
+}
+.slide7-8{
+	width: 20%;
+	position: absolute;
+	top: 50%;
+	right: -10%;
+	z-index: 3;
+}
+.slide7-8{
+	-webkit-animation:3s 2.5s ease-in infinite alternate;
+	-webkit-animation-name:move7-8;
+	-webkit-animation-fill-mode:forwards;
+	
+}
+@-webkit-keyframes move7-8{
+    0%{
+       top: 50%;
+	   right: -10%;
+    }
+    100%{
+        
+	   top: 51%;
+	   right: -12%;
+    }
+}
+.slide7-9{
+	width: 50%;
+	position: absolute;
+	bottom: 20%;
+	right: 15%;
+	z-index: 3;
+}
+.slide7-10{
+	width: 20%;
+	position: absolute;
+	bottom: 4%;
+	left: -10%;
+	z-index: 3;
+}
+.slide7-10{
+	-webkit-animation:2s 2.5s ease-in infinite alternate;
+	-webkit-animation-name:move7-10;
+	-webkit-animation-fill-mode:forwards;
+	
+}
+@-webkit-keyframes move7-10{
+    0%{
+       bottom: 4%;
+	   left: -10%;
+    }
+    100%{
+       bottom: 2%;
+	   left: -9%; 
+	   
+    }
+}
+
+.slide7-11{
+	width: 5%;
+	position: absolute;
+	bottom: 6%;
+	right: 18%;
+	z-index: 3;
+
+}
+.slide7-11{
+	-webkit-animation:3s 2.5s ease-in infinite alternate;
+	-webkit-animation-name:move7-11;
+	-webkit-animation-fill-mode:forwards;
+	
+}
+@-webkit-keyframes move7-11{
+    0%{
+       bottom: 6%;
+	   right: 18%;
+    }
+    100%{
+        
+	   bottom: 5%;
+	   right: 16%;
+    }
+}
+.p7{
+	width: 55%;
+	position: absolute;
+	top: 25%;
+	left: 25%;	
+}
+.bgn{
+	width: 6.4rem;
+	height: 8rem;
+	background-color:black;
+	position: absolute;
+	top: 20%;
+    animation: bgn 2s linear 4.5s infinite normal ;
+    animation-iteration-count:1;
+    animation-fill-mode:forwards;
+    z-index: 1;
+}
+@keyframes bgn{
+	0%{
+		top:20%;
+		
+	}
+	1%{
+        top:21%;
+		
+	}
+	50%{
+		top:50%;
+		
+	}
+	70%{
+		top:70%;
+		
+	}
+	100%{
+		top:100%;	
+		display: none;
+	}
+}
